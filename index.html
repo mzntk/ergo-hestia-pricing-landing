@@ -564,12 +564,18 @@
     <script>
         function scrollSlider(direction) {
             const wrapper = document.getElementById('slider-wrapper');
-            const scrollAmount = wrapper.clientWidth / 1.5; 
+            const cards = wrapper.querySelectorAll('.slide');
             
-            wrapper.scrollBy({
-                left: direction * scrollAmount,
-                behavior: 'smooth'
-            });
+            if (cards.length > 0) {
+                const scrollAmount = cards.length > 1 
+                    ? (cards[1].offsetLeft - cards[0].offsetLeft) 
+                    : cards[0].offsetWidth;
+                
+                wrapper.scrollBy({
+                    left: direction * scrollAmount,
+                    behavior: 'smooth'
+                });
+            }
         }
     </script>
 
