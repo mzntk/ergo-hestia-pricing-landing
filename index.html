@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dział Pricingu | ERGO Hestia</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        if (window.history.replaceState) {
+            window.history.replaceState("", document.title, window.location.pathname);
+        }
+        window.scrollTo(0, 0);
+    </script>
+</head>
+<body>
+
+    <!-- NAWIGACJA -->
+    <nav class="top-nav">
+        <div class="nav-container">
+            <a href="#glowna-gora" class="nav-logo">
+                <img src="logo.png" alt="ERGO Hestia" class="nav-logo-img">
+            </a>
+            <div class="nav-links">
+                <a href="#o-nas">O nas</a>
+                <a href="#czym-sie-zajmujemy">Co robimy</a>
+                <a href="#tech-stack">Technologie</a>
+                <a href="#kogo-szukamy">Kogo szukamy</a>
+                <a href="#benefity">Benefity</a>
+                <a href="#oferty-pracy" class="nav-cta">Oferty pracy</a>
+                <a href="#faq">FAQ</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="header" id="glowna-gora">
+        <img src="logo.png" alt="ERGO Hestia Logo" class="logo">
+        <h1>Dział Pricingu ERGO Hestii</h1>
+        <p class="subtitle">Tworzymy innowacyjne rozwiązania oparte na danych dla lidera rynku ubezpieczeniowego.</p>
+    </header>
+
+    <main class="container">
+        
+        <!-- O FIRMIE -->
+        <section class="about-section" id="o-nas">
+            <div class="glass-card">
+                <h2>O ERGO Hestii</h2>
+                <p>Od ponad 30 lat kształtujemy rynek ubezpieczeń w Polsce, będąc pionierem wdrożeń technologicznych i cyfrowych. Jako Grupa ERGO Hestia zabezpieczamy przyszłość milionów klientów indywidualnych oraz największych korporacji. Nasza centrala w Sopocie to miejsce, gdzie stabilność międzynarodowej grupy finansowej łączy się z dynamiczną kulturą innowacji i ciągłego testowania nowych rozwiązań.</p>
+            </div>
+            <div class="glass-card">
+                <h2>O Biurze Pricingu</h2>
+                <p>Jesteśmy sercem analitycznym firmy. Nasz zespół to unikalne połączenie kompetencji biznesowych, wiedzy aktuarialnej oraz zaawansowanego Data Science. Nie tylko analizujemy suche dane – my nadajemy im sens i przekształcamy je w realne strategie cenowe. Pracujemy w interdyscyplinarnych zespołach (Scrum), ściśle współpracując z product ownerami, co daje nam bezpośredni i natychmiastowy wpływ na wynik biznesowy firmy.</p>
+            </div>
+        </section>
+
+        <!-- CZYM SIĘ ZAJMUJEMY -->
+        <section class="what-we-do" id="czym-sie-zajmujemy">
+            <h2 class="section-title">Czym się zajmujemy?</h2>
+            
+            <div class="slider-container">
+                <div class="slider-wrapper" id="slider-wrapper">
+                    
+                    <!-- KROK 1 -->
+                    <div class="slide glass-card" id="pricing-step-1">
+                        <div class="slide-content">
+                            <div class="step-badge">Krok 1 / 5</div>
+                            <h3>Programujemy algorytmy przetwarzające dane</h3>
+                            <p>Dane przechowujemy w chmurze i przetwarzamy wykorzystując narzędzia Azure Databricks.</p>
+                            <ul>
+                                <li>zapisujemy dane wykorzystywane do taryfikacji składek</li>
+                                <li>programujemy procesy, które automatycznie codziennie przetwarzają dane do raportowania i modelowania</li>
+                                <li>jesteśmy jednym z największych klientów Azure Databricks w Polsce, co pokazuje skalę i intensywność wykorzystania tego narzędzia</li>
+                            </ul>
+                            <div class="image-grid single">
+                                <img src="wykres-databricks.png" alt="Wykres Databricks">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- KROK 2 -->
+                    <div class="slide glass-card" id="pricing-step-2">
+                        <div class="slide-content">
+                            <div class="step-badge">Krok 2 / 5</div>
+                            <h3>Budujemy modele predykcyjne</h3>
+                            <p>Tworzymy zaawansowane modele wykorzystywane w taryfikacji wszystkich produktów ubezpieczeniowych.</p>
+                            <ul>
+                                <li>ponad 100 modeli wykorzystywanych w procesie pricingowym</li>
+                                <li>ponad 1 000 zmiennych objaśniających przetestowanych w modelach</li>
+                            </ul>
+                            <p class="highlight">Budujemy modele: ryzyka ubezpieczeniowego, popytu, ceny rynkowej, optymalnych ścieżek likwidacji szkód. Wykorzystujemy zarówno klasyczne podejście (GLM), jak i nowoczesne metody Machine Learning.</p>
+                            <div class="image-grid double">
+                                <img src="wykres-model1.png" alt="Model Predykcyjny 1">
+                                <img src="wykres-model2.png" alt="Model Predykcyjny 2">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- KROK 3 -->
+                    <div class="slide glass-card" id="pricing-step-3">
+                        <div class="slide-content">
+                            <div class="step-badge">Krok 3 / 5</div>
+                            <h3>Korzystamy z algorytmów statystycznych do optymalizacji cen</h3>
+                            <p>Łączymy modele ryzyka i popytu w procesie optymalizacji cen. Dzięki temu:</p>
+                            <ul>
+                                <li>dopasowujemy ceny do strategii biznesowej</li>
+                                <li>balansujemy pomiędzy sprzedażą a marżą</li>
+                                <li>podejmujemy decyzje cenowe w oparciu o dane</li>
+                            </ul>
+                            <div class="image-grid single">
+                                <img src="wykres-optymalizacja.png" alt="Wykres Optymalizacji">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- KROK 4 -->
+                    <div class="slide glass-card" id="pricing-step-4">
+                        <div class="slide-content">
+                            <div class="step-badge">Krok 4 / 5</div>
+                            <h3>Testujemy różne strategie w ramach A/B testów</h3>
+                            <p>Analizujemy pełny cykl życia taryfy i testujemy różne podejścia cenowe.</p>
+                            <ul>
+                                <li>prowadzimy A/B testy nowych strategii</li>
+                                <li>porównujemy wyniki w rzeczywistych warunkach rynkowych</li>
+                                <li>analizujemy wpływ zmian na sprzedaż i rentowność</li>
+                            </ul>
+                            <p class="highlight">Dzięki temu możemy mierzyć efekty wdrażanych rozwiązań i stale je optymalizować.</p>
+                            <div class="image-grid vertical">
+                                <img src="cykl-zycia-taryfy.jpg" alt="Cykl życia taryfy">
+                                <img src="wykres-optymalizacje-slupkowe.png" alt="Wykres słupkowy">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- KROK 5 -->
+                    <div class="slide glass-card" id="pricing-step-5">
+                        <div class="slide-content">
+                            <div class="step-badge">Krok 5 / 5</div>
+                            <h3>Wdrażamy zmiany na produkcję</h3>
+                            <p>W ramach Biura Pricingu samodzielnie wdrażamy zmiany produkcyjne — bez angażowania Departamentu IT. Obejmuje to m.in.:</p>
+                            <ul>
+                                <li>zmiany cen produktów ubezpieczeniowych</li>
+                                <li>wykorzystujemy platformę <strong>Earnix</strong> do modelowania, optymalizacji i błyskawicznego wdrażania taryf</li>
+                                <li>rozwój algorytmów przetwarzających dane online (w czasie rzeczywistym)</li>
+                                <li>walidację danych i kalkulację składek dla klientów</li>
+                            </ul>
+                            <div class="image-grid single">
+                                <img src="zmiany-prod.png" alt="Zmiany na produkcję">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- KONTROLER SLIDERA -->
+            <div class="global-slider-nav">
+                <button class="nav-btn prev-btn" onclick="scrollSlider(-1)">◀</button>
+                <div class="slider-hint">Przesuń, by zobaczyć więcej</div>
+                <button class="nav-btn next-btn" onclick="scrollSlider(1)">▶</button>
+            </div>
+        </section>
+
+        <!-- ŹRÓDŁA DANYCH -->
+       <section class="data-sources-wrapper">
+            <h2 class="section-title">Zewnętrzne źródła danych</h2>
+            
+            <div class="data-sources">
+                <div class="marquee">
+                    <div class="marquee-content">
+                        <div class="data-badge"><img src="gus.png" alt="GUS" class="data-logo"></div>
+                        <div class="data-badge"><img src="ufg.png" alt="UFG" class="data-logo"></div>
+                        <div class="data-badge"><img src="knf.png" alt="KNF" class="data-logo"></div>
+                        <div class="data-badge"><img src="wasko.png" alt="Wasko" class="data-logo"></div>
+                        <div class="data-badge"><img src="transparent-data.png" alt="Transparent Data" class="data-logo"></div>
+                        <div class="data-badge"><img src="samar.png" alt="Samar" class="data-logo"></div>
+                        <div class="data-badge"><img src="datawise.png" alt="Datawise" class="data-logo"></div>
+                        <div class="data-badge"><img src="audatex.png" alt="Audatex" class="data-logo"></div>
+                        <div class="data-badge"><img src="gov.png" alt="gov.pl" class="data-logo"></div>
+                        <div class="data-badge"><img src="cepik.png" alt="CEPiK" class="data-logo"></div>
+                        <div class="data-badge"><img src="eurotax.png" alt="Eurotax" class="data-logo"></div>
+
+                        <div class="data-badge"><img src="gus.png" alt="GUS" class="data-logo"></div>
+                        <div class="data-badge"><img src="ufg.png" alt="UFG" class="data-logo"></div>
+                        <div class="data-badge"><img src="knf.png" alt="KNF" class="data-logo"></div>
+                        <div class="data-badge"><img src="wasko.png" alt="Wasko" class="data-logo"></div>
+                        <div class="data-badge"><img src="transparent-data.png" alt="Transparent Data" class="data-logo"></div>
+                        <div class="data-badge"><img src="samar.png" alt="Samar" class="data-logo"></div>
+                        <div class="data-badge"><img src="datawise.png" alt="Datawise" class="data-logo"></div>
+                        <div class="data-badge"><img src="audatex.png" alt="Audatex" class="data-logo"></div>
+                        <div class="data-badge"><img src="gov.png" alt="gov.pl" class="data-logo"></div>
+                        <div class="data-badge"><img src="cepik.png" alt="CEPiK" class="data-logo"></div>
+                        <div class="data-badge"><img src="eurotax.png" alt="Eurotax" class="data-logo"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TECH STACK -->
+        <section class="tech-stack" id="tech-stack">
+            <h2 class="section-title">Nasz Tech Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <img src="databricks.png" alt="Azure Databricks" class="tech-icon">
+                    <strong>Azure Databricks</strong>
+                    <span>Przetwarzanie danych</span>
+                </div>
+                <div class="tech-item">
+                    <img src="earnix.png" alt="Earnix" class="tech-icon">
+                    <strong>Earnix</strong>
+                    <span>Zaawansowana analityka i taryfikacja</span>
+                </div>
+                <div class="tech-item">
+                    <img src="python.png" alt="Python i PySpark" class="tech-icon">
+                    <strong>Python / PySpark</strong>
+                    <span>Modelowanie i algorytmy</span>
+                </div>
+                <div class="tech-item">
+                    <img src="r.png" alt="R" class="tech-icon">
+                    <strong>R</strong>
+                    <span>Analizy statystyczne</span>
+                </div>
+                <div class="tech-item">
+                    <img src="sql.png" alt="SQL" class="tech-icon">
+                    <strong>SQL</strong>
+                    <span>Zarządzanie bazami danych</span>
+                </div>
+                <div class="tech-item">
+                    <img src="git.png" alt="Git" class="tech-icon">
+                    <strong>Git</strong>
+                    <span>Kontrola wersji</span>
+                </div>
+                <div class="tech-item">
+                    <img src="powerbi.png" alt="Power BI" class="tech-icon">
+                    <strong>Power BI</strong>
+                    <span>Wizualizacja i raportowanie</span>
+                </div>
+                <div class="tech-item">
+                    <img src="jira.png" alt="Jira" class="tech-icon">
+                    <strong>Jira</strong>
+                    <span>Zarządzanie projektami i Scrum</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- KOGO SZUKAMY I KTO U NAS PRACUJE -->
+        <section class="who-we-look-for" id="kogo-szukamy">
+            <h2 class="section-title">Kto u nas pracuje i kogo szukamy?</h2>
+            
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 30px auto; color: var(--brand-grey); font-size: 1.1rem;">
+                Tworzymy zgrany zespół ekspertów – analityków, data scientistów i aktuariuszy, dla których praca z danymi to prawdziwa pasja. Cenimy otwartą komunikację, dzielenie się wiedzą i partnerskie podejście do rozwiązywania problemów biznesowych. Dołączając do nas, staniesz się częścią środowiska, które wspiera innowacje. Szukamy osób, które idealnie dopełnią ten zespół!
+            </p>
+
+            <div class="requirements-grid">
+                <div class="glass-card req-card">
+                    <h3>Umiejętności twarde (Tech & Data)</h3>
+                    <ul>
+                        <li>Bardzo dobra znajomość języka <strong>Python</strong> lub <strong>R</strong> oraz środowiska <strong>SQL</strong>.</li>
+                        <li>Doświadczenie w pracy z dużymi zbiorami danych (mile widziane środowisko Spark/Databricks oraz narzędzia klasy <strong>Earnix</strong>).</li>
+                        <li>Zrozumienie zagadnień statystycznych, ekonometrycznych oraz modeli Machine Learning (GLM, drzewa decyzyjne, XGBoost).</li>
+                        <li>Wykształcenie wyższe o profilu ścisłym (Metody Ilościowe, Matematyka, Informatyka, Ekonometria, Aktuariat lub pokrewne).</li>
+                    </ul>
+                </div>
+                <div class="glass-card req-card">
+                    <h3>Kompetencje miękkie & Biznes</h3>
+                    <ul>
+                        <li><strong>Nastawienie na biznes:</strong> Umiejętność przekładania skomplikowanych modeli matematycznych na język korzyści biznesowych.</li>
+                        <li><strong>Dociekliwość i pasja:</strong> Chęć ciągłego szukania zależności w danych i testowania niestandardowych hipotez.</li>
+                        <li><strong>Praca zespołowa:</strong> Świetna komunikacja wewnątrz zwinnego zespołu (Scrum) oraz otwartość na wymianę wiedzy.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- BENEFITY -->
+        <section class="benefits-section" id="benefity">
+            <h2 class="section-title">Co oferujemy?</h2>
+            <div class="benefits-grid">
+                <div class="glass-card benefit-item">
+                    <div class="benefit-icon">
+                        <img src="ikona-uop.png" alt="Umowa o pracę KUP 50%" class="custom-icon">
+                    </div>
+                    <h4>Umowa o pracę (KUP 50%)</h4>
+                    <p>Oferujemy stabilne zatrudnienie zawierające korzystne podatkowo zapisy, uwzględniające autorskie koszty uzyskania przychodu.</p>
+                </div>
+                <div class="glass-card benefit-item">
+                    <div class="benefit-icon">
+                        <img src="ikona-szkolenia.png" alt="Szkolenia i warsztaty" class="custom-icon">
+                    </div>
+                    <h4>Szkolenia i warsztaty</h4>
+                    <p>Inwestujemy w Twój rozwój. Oferujemy dostęp do nowoczesnych platform edukacyjnych oraz autorskich programów, takich jak nasza wewnętrzna Upskill Academy.</p>
+                </div>
+                <div class="glass-card benefit-item">
+                    <div class="benefit-icon">
+                        <img src="ikona-dom.png" alt="Praca hybrydowa" class="custom-icon">
+                    </div>
+                    <h4>Elastyczna praca hybrydowa</h4>
+                    <p>Łączymy swobodę pracy z domu z obecnością w biurze dopasowaną do potrzeb Twoich i zespołu.</p>
+                </div>
+                <div class="glass-card benefit-item">
+                    <div class="benefit-icon">
+                        <img src="ikona-morze.png" alt="Morze" class="custom-icon">
+                    </div>
+                    <h4>Bliskość morza</h4>
+                    <p>Nasze biuro mieści się tuż przy plaży w Sopocie – idealne miejsce na krótki spacer lub reset po pracy.</p>
+                </div>
+                <div class="glass-card benefit-item">
+                    <div class="benefit-icon">
+                        <img src="ikona-karta.png" alt="Karta Sportowa" class="custom-icon">
+                    </div>
+                    <h4>Karta MultiSport</h4>
+                    <p>Dostęp do tysięcy obiektów sportowych (nie tylko w Polsce), by dbać o kondycję fizyczną.</p>
+                </div>
+                <div class="glass-card benefit-item">
+                    <div class="benefit-icon">
+                        <img src="ikona-rower.png" alt="Rower" class="custom-icon">
+                    </div>
+                    <h4>Darmowe obiady dla rowerzystów</h4>
+                    <p>Wybierasz proekologiczny dojazd rowerem? ERGO Hestia funduje pożywny posiłek w naszej kantynie.</p>
+                </div>
+                <div class="glass-card benefit-item">
+                    <div class="benefit-icon">
+                        <img src="ikona-zdrowie.png" alt="Zdrowie" class="custom-icon">
+                    </div>
+                    <h4>Marina Zdrowie</h4>
+                    <p>Kompleksowy, prywatny pakiet opieki medycznej dla Ciebie i Twoich bliskich.</p>
+                </div>
+                <div class="glass-card benefit-item">
+                    <div class="benefit-icon">
+                        <img src="ikona-eventy.png" alt="Eventy" class="custom-icon">
+                    </div>
+                    <h4>Eventy integracyjne</h4>
+                    <p>Cykliczne spotkania zespołowe, wyjścia integracyjne oraz duże imprezy firmowe.</p>
+                </div>
+                <div class="glass-card benefit-item">
+                    <div class="benefit-icon">
+                        <img src="ikona-zespol.png" alt="Zespół" class="custom-icon">
+                    </div>
+                    <h4>Młody zespół</h4>
+                    <p>Praca w dynamicznym, ambitnym środowisku bez sztywnej hierarchii i zbędnych procedur.</p>
+                </div>
+                <div class="glass-card benefit-item">
+                    <div class="benefit-icon">
+                        <img src="ikona-rodzina.png" alt="Rodzina" class="custom-icon">
+                    </div>
+                    <h4>"Godziny dla rodziny"</h4>
+                    <p>Dodatkowe płatne godziny wolne od pracy, które możesz w pełni przeznaczyć dla swoich najbliższych.</p>
+                </div>
+            </div>
+            <div class="flaticon-attribution">
+                Ikony użyte w tej sekcji zostały zaprojektowane przez twórców z <a href="https://www.flaticon.com/" target="_blank" rel="noopener noreferrer">Flaticon</a>.
+            </div>
+        </section>
+
+        <!-- OFERTY PRACY -->
+        <section class="open-roles" id="oferty-pracy">
+            <h2 class="section-title">Oferty pracy</h2>
+            <div class="roles-grid">
+                
+                <!-- KARTA OFERTY -->
+                <div class="glass-card role-card">
+                    <div class="role-header">
+                        <div>
+                            <span class="role-badge">Nowa oferta</span>
+                            <h3>Specjalista / Specjalistka ds. Inżynierii Danych</h3>
+                            <p class="role-location">📍 Sopot (Hybrydowo)</p>
+                        </div>
+                    </div>
+
+                    <div class="role-tags">
+                        <span class="tag python">Python</span>
+                        <span class="tag pyspark">PySpark</span>
+                        <span class="tag sql">SQL</span>
+                        <span class="tag">Kafka / Flink</span>
+                        <span class="tag">ETL</span>
+                        <span class="tag">Big Data</span>
+                    </div>
+
+                    <details class="role-details">
+                        <summary>Pokaż szczegóły ogłoszenia</summary>
+                        <div class="role-details-content">
+                            <h4>Twój zakres obowiązków:</h4>
+                            <ul>
+                                <li>projektowanie, wdrażanie i testowanie oprogramowania opartych o Python, obsługujących procesy taryfikacyjne</li>
+                                <li>udział w opracowywaniu koncepcji oraz planowaniu nowych modułów, funkcjonalności i aplikacji</li>
+                                <li>optymalizowanie rozwiązań pod kątem wydajności i możliwości przetwarzania dużych zbiorów danych</li>
+                                <li>projektowanie zadań ETL (tryb batch'owy oraz czas rzeczywisty np. Kafka, Flink)</li>
+                                <li>tworzenie kodu zgodnie ze standardami rynkowymi i wewnętrznymi</li>
+                                <li>kontrola i podnoszenie jakości danych w Biurze Pricingu</li>
+                            </ul>
+
+                            <h4>Nasze wymagania:</h4>
+                            <ul>
+                                <li>znajomość języków <strong>SQL, Python i PySpark</strong></li>
+                                <li>doświadczenie w tworzeniu rozwiązań IT z zakresu pricingu</li>
+                                <li>doświadczenie w pracy z rozwiązaniami Big Data oraz API REST</li>
+                                <li>wiedza z zakresu baz relacyjnych i nierelacyjnych</li>
+                                <li>znajomość zasad przetwarzania i analizy dużych zbiorów danych</li>
+                                <li>język angielski: min. B2 oraz swobodne czytanie dokumentacji</li>
+                                <li>umiejętność dobrej komunikacji i chęć poszerzania wiedzy</li>
+                                <li><strong>Mile widziane:</strong> znajomość GitLab oraz Azure DevOps (zarządzanie kodem, CI/CD)</li>
+                            </ul>
+                        </div>
+                    </details>
+
+                    <div class="role-footer">
+                        <a href="https://skk.erecruiter.pl/Offer.aspx?oid=4853079&cfg=72168E06D46A41F4A69A9389DF4D3B4D&ejoId=810700&ejorId=467804&comId=8698757" target="_blank" class="btn primary full-width">Aplikuj na to stanowisko</a>
+                    </div>
+                </div>
+
+                <!-- KARTA OFERTY: Aplikacja Spontaniczna -->
+                <div class="glass-card role-card" style="background: rgba(255, 255, 255, 0.4); border: 2px dashed var(--brand-red);">
+                    <div class="role-header">
+                        <div>
+                            <span class="role-badge" style="background: var(--brand-grey);">Zawsze otwarci</span>
+                            <h3>Nie znalazłeś oferty dla siebie?</h3>
+                        </div>
+                    </div>
+
+                    <div class="role-details-content" style="border-top: none; margin-top: 0; padding-top: 0;">
+                        <p style="margin-bottom: 10px; color: var(--brand-grey);">
+                            Jeśli nie prowadzimy w tej chwili rekrutacji na stanowisko, które odpowiada Twoim umiejętnościom, ale masz kompetencje, których potrzebujemy i chcesz u nas pracować – daj nam znać!
+                        </p>
+                        <p style="font-weight: bold; color: var(--brand-red);">
+                            Wyślij swoje CV, a odezwiemy się, gdy tylko będziemy mieli możliwość Cię zatrudnić.
+                        </p>
+                    </div>
+
+                    <div class="role-footer" style="margin-top: auto;">
+                        <a href="mailto:maciej.krajewski@ergohestia.pl?subject=Aplikacja spontaniczna - Biuro Pricingu" class="btn primary full-width">Wyślij CV (Aplikacja spontaniczna)</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- PROCES REKRUTACJI -->
+        <section class="process-section" id="rekrutacja">
+            <h2 class="section-title">Jak wygląda rekrutacja?</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-number">1</div>
+                    <h4>Analiza aplikacji (CV)</h4>
+                    <p>Dokładnie sprawdzamy Twoje doświadczenie pod kątem wymagań na danym stanowisku, w szczególności umiejętności technicznych i analitycznych.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">2</div>
+                    <h4>Krótka rozmowa telefoniczna</h4>
+                    <p>Kontakt ze strony HR w celu poinformowania o przyjęciu do rekrutacji i ewentualnie doprecyzowania szczegółów.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">3</div>
+                    <h4>Test analityczny</h4>
+                    <p>30-minutowy test weryfikujący Twoje zdolności analityczne.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">4</div>
+                    <h4>Rozmowa z przyszłym przełożonym</h4>
+                    <p>Spotkanie, zwykle online, z rekruterem i przyszłym przełożonym. Na tym spotkaniu będziesz mieć okazję opowiedzieć bardziej szczegółowo o swoim doświadczeniu zawodowym oraz o tym w jakim kierunku chcesz się rozwijać. My przedstawimy Ci pracę w naszym zespole i odpowiemy na pojawiające się pytania.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">5</div>
+                    <h4>Zadanie do wykonania</h4>
+                    <p>Przy rekrutacji na wybrane stanowiska po rozmowie dajemy jeszcze zadanie do wykonania, aby upewnić się, że faktycznie umiesz robić to o czym zapewniałeś w CV i podczas rozmowy. Omówienie wyników odbywa się na kolejnym spotkaniu, zwykle już w formie stacjonarnej.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">6</div>
+                    <h4>Witamy na pokładzie!</h4>
+                    <p>Składamy oficjalną ofertę i wspólnie planujemy Twój spersonalizowany proces onboardingu.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq-section" id="faq">
+            <h2 class="section-title">Często zadawane pytania</h2>
+            <div class="faq-container">
+                <details class="faq-item glass-card">
+                    <summary>Czy wymagane jest wcześniejsze doświadczenie w ubezpieczeniach?</summary>
+                    <div class="faq-answer">
+                        <p>To zależy od konkretnej rekrutacji, szczegółowe wymagania są opisane w ogłoszeniu. W niektórych przypadkach doświadczenie w ubezpieczeniach nie jest wymagane, a czasami zależy nam na zatrudnieniu osoby z doświadczeniem w pricingu ubezpieczeniowym. Nawet jeśli nie spełniasz wszystkich wymagań, ale czujesz że Twoje doświadczenie i umiejętności są dla nas wartościowe, to zaaplikuj na interesujące Cię ogłoszenie.</p>
+                    </div>
+                </details>
+                <details class="faq-item glass-card">
+                    <summary>Czy jesteście otwarci na pracowników spoza Trójmiasta?</summary>
+                    <div class="faq-answer">
+                        <p>Dla osób z Warszawy lub innych lokalizacji z dala od Trójmiasta oferujemy pracę zdalną z przyjazdem do biura raz w miesiącu na kilka dni w ramach delegacji (najszybszy pociąg jedzie z Warszawy Wschodniej około 2h 30min). Osoby pracujące w takiej formule cenią sobie położenie naszego biura tuż przy plaży, dzięki czemu delegację można połączyć z wypoczynkiem. Jeśli wolisz pracę w biurze ze współpracownikami i jesteś gotów przeprowadzić się do Trójmiasta to oferujemy dofinansowanie do wynajmu mieszkania przez pierwsze pół roku.</p>
+                    </div>
+                </details>
+                <details class="faq-item glass-card">
+                    <summary>Na czym polega zadanie rekrutacyjne i ile mam na nie czasu?</summary>
+                    <div class="faq-answer">
+                        <p>Przy rekrutacji na stanowisko związane z modelowaniem w celu weryfikacji Twoich umiejętności dajemy zadanie, które dotyczy szeroko rozumianych analizy danych i modelowania na dostarczonym przez nas zbiorze. Efektem pracy nad zadaniem powinien być kod (zwykle w pythonie lub R) i analiza uzyskanych wyników. Na wykonanie zadania dajemy od tygodnia do dwóch, dopasowując termin do Twoich innych obowiązków.</p>
+                    </div>
+                </details>
+                <details class="faq-item glass-card">
+                    <summary>Jak dokładnie działa umowa o pracę z kosztami autorskimi (KUP 50%)?</summary>
+                    <div class="faq-answer">
+                        <p>Standardowo przy umowie o pracę stosuje się koszty w wysokości 250 zł miesięcznie - jest to kwota pomniejszająca kwotę do opodatkowania. Korzystamy z tego, że prawo dopuszcza stosowanie wyższych kosztów dla pracowników, którzy tworzą utwory i przekazują prawa autorskie na rzecz pracodawcy. W naszym przypadku utworami mogą być kod w dowolnym języku programowania, przeprowadzona analiza czy stworzony model, jeżeli tylko dany utwór jest efektem pracy człowieka i posiada indywidualny charakter.</p>
+                        
+                        <p>Utwory zgłaszamy w każdym miesiącu (przynajmniej jeden na miesiąc) i skutkuje to stosowaniem wyższych kosztów przy obliczaniu podatku. Ze względu na progresywne podatki im wyższa pensja brutto, tym większa korzyść z mechanizmu KUP 50%.</p>
+
+                        <p>Jeśli chcesz oszacować pensję brutto dla oczekiwanej przez Ciebie pensji netto (lub odwrotnie, oszacować netto dla pensji brutto) możesz skorzystać z <a href="https://www.bankier.pl/narzedzia/kalkulator-placowy" target="_blank" rel="noopener noreferrer">kalkulatora bankiera</a>. W zależności od stanowiska stosujemy podwyższone koszty dla 70%-80% pensji i maksymalnie tyle powinieneś wpisać w kalkulatorze.</p>
+                    </div>
+                </details>
+                <details class="faq-item glass-card">
+                    <summary>Czy muszę znać platformę Earnix i Azure Databricks przed dołączeniem do zespołu?</summary>
+                    <div class="faq-answer">
+                        <p>Znajomość używanych przez nas narzędzi ułatwia wdrożenie nowego pracownika, ale nie jest niezbędnym warunkiem do zatrudnienia. Jeśli znasz inny software do modelowania, inny silnik taryfikacyjny lub inne bazy danych, to na pewno szybko przyzwyczaisz się do naszych rozwiązań.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <h3>Siedziba Główna</h3>
+                <p><strong>Sopockie Towarzystwo Ubezpieczeń ERGO Hestia S.A.</strong></p>
+                <p>ul. Hestii 1<br>81-731 Sopot</p>
+                <p class="footer-contact">
+                    <span>NIP: 585-000-11-69</span><br>
+                    <span>Infolinia: 801 107 107</span><br>
+                    <span>E-mail: kariera@ergohestia.pl</span>
+                </p>
+                <p class="copyright">© 2026 ERGO Hestia. Wszystkie prawa zastrzeżone.</p>
+            </div>
+            <div class="footer-map">
+                <iframe 
+                    src="https://maps.google.com/maps?q=54.430944,18.586001&t=&z=17&ie=UTF8&iwloc=&output=embed" 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SKRYPTY -->
+    <script>
+        function scrollSlider(direction) {
+            const wrapper = document.getElementById('slider-wrapper');
+            const scrollAmount = wrapper.clientWidth / 1.5; 
+            
+            wrapper.scrollBy({
+                left: direction * scrollAmount,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+
+</body>
+</html>
