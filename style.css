@@ -113,7 +113,12 @@ body {
     .nav-links {
         display: none; 
     }
+    
+    .top-nav {
+        position: relative; 
+    }
 }
+
 
 /* --- KOMPONENTY WSPÓLNE --- */
 .glass-card {
